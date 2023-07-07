@@ -10,7 +10,7 @@ function solution(number) {
   return arr.reduce((ttl, cv) => ttl + cv, 0);
 }
 
-console.log(solution(10))
+console.log(solution(10));
 
 // KATA 2 
 // https://www.codewars.com/kata/56541980fa08ab47a0000040/train/javascript
@@ -26,7 +26,7 @@ function printerError(s) {
     return `${count}/${s.length}`;
   }
 
-console.log(printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"))
+console.log(printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"));
 
 // KATA 3
 // https://www.codewars.com/kata/555eded1ad94b00403000071/train/javascript
@@ -35,9 +35,9 @@ function seriesSum(n) {
   for(a=0,i=1;i<=n*3;i+=3) a+=1/i;
   return a.toFixed(2);
 }
-console.log(seriesSum(1))
-console.log(seriesSum(3))
-console.log(seriesSum(5))
+console.log(seriesSum(1));
+console.log(seriesSum(3));
+console.log(seriesSum(5));
 
 
 // KATA 4
@@ -46,8 +46,8 @@ function breakChocolate(n,m) {
   return (n * m === 0) ? 0 : n * m - 1;
 }
 
-console.log(breakChocolate(5,5)) //24
-console.log(breakChocolate(1,1)) //0
+console.log(breakChocolate(5,5)); 
+console.log(breakChocolate(1,1)); 
 
 // KATA 5
 // https://www.codewars.com/kata/511f11d355fe575d2c000001
@@ -56,8 +56,8 @@ function twoOldestAges(ages){
   return [sort[1], sort[0]];
 }
 
-console.log(twoOldestAges([1,5,87,45,8,8]))
-console.log(twoOldestAges([6,5,83,5,3,18]))
+console.log(twoOldestAges([1,5,87,45,8,8]));
+console.log(twoOldestAges([6,5,83,5,3,18]));
 
 // KATA 6 
 // https://www.codewars.com/kata/58b8c94b7df3f116eb00005b
@@ -65,5 +65,5 @@ function reverseLetter(str) {
   return str.match(/[a-zA-Z]/gi).reverse().join('');
 }
 
-console.log(reverseLetter('Krishan'))
-console.log(reverseLetter("ultr53o?n"))
+console.log(reverseLetter('Krishan'));
+console.log(reverseLetter("ultr53o?n"));
